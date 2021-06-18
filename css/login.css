@@ -1,0 +1,206 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    height: 85px;
+    line-height: 85px;
+}
+
+.logo img {
+    margin-left: 364px;
+}
+
+.banner {
+    position: relative;
+    height: 486px;
+    background-color: #7e00ff;
+}
+
+.banner .pic {
+    position: absolute;
+    top: 32px;
+    left: 460px;
+}
+
+.banner .search {
+    position: absolute;
+    bottom: 50px;
+    left: 613px;
+}
+
+.search input {
+    float: left;
+    width: 182px;
+    height: 34px;
+    border: 1px solid #b81c1f;
+}
+
+.search {
+    width: 263px;
+    height: 34px;
+}
+
+.search button {
+    float: left;
+    width: 80px;
+    height: 34px;
+    background-color: #b81c1f;
+    border: 0;
+    font-size: 16px;
+    color: #fff;
+    line-height: 34px;
+}
+
+.login {
+    position: absolute;
+    right: 475px;
+    bottom: 60px;
+    width: 380px;
+    height: 363px;
+    background-color: #fff;
+}
+
+.login_hd {
+    height: 40px;
+    line-height: 40px;
+    margin-top: 10px;
+}
+
+.login_hd ul {
+    position: relative;
+    margin-left: 45px;
+}
+
+.login_hd ul li {
+    float: left;
+    margin-right: 70px;
+    font-size: 18px;
+}
+
+.login_hd ul li:nth-child(3) {
+    margin-right: 0;
+    color: #c81623;
+}
+
+.login_hd ul li:nth-child(2) {
+    margin-top: 10px;
+    width: 1px;
+    height: 20px;
+    background-color: #ccc;
+}
+
+.login p {
+    width: 302px;
+    height: 26px;
+    background-color: #fffdee;
+    border: 1px solid #f5eecf;
+    line-height: 26px;
+    margin-left: 37px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.login_bd ul li {
+    position: relative;
+    width: 305px;
+    height: 34px;
+    margin: 10px 0 0 37px;
+}
+
+.login_bd ul li input[type="text"] {
+    width: 302px;
+    height: 34px;
+    border: 1px solid #ccc;
+    background: url(../images/self.png) no-repeat;
+    padding-left: 50px;
+}
+
+.login_bd ul li input[type="password"] {
+    width: 302px;
+    height: 34px;
+    border: 1px solid #ccc;
+    background: url(../images/pwd.png) no-repeat;
+    padding-left: 50px;
+}
+
+.login_bd ul li:nth-child(-n+2) input:hover {
+    border: 1px solid #3aa2e4;
+}
+
+.login_bd ul li:nth-child(3) {
+    margin-top: 20px;
+}
+
+.login_bd ul li input[type="checkbox"] {
+    vertical-align: middle;
+    margin-top: -2px;
+}
+
+.login_bd ul li label {
+    color: #b2b2b2;
+}
+
+.login_bd ul li .fgt {
+    position: absolute;
+    top: 0;
+    right: 5px;
+    color: #333333;
+}
+
+.login_bd ul li .load {
+    display: block;
+    width: 302px;
+    height: 41px;
+    background-color: #c81623;
+    line-height: 41px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+}
+
+.login_bd ul .last {
+    position: relative;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.login_bd ul .last .regist {
+    position: absolute;
+    top: 13px;
+    right: -6px;
+    font-size: 14px;
+    color: #1474af;
+}
+
+.mod_copyright ul li {
+    float: left;
+    margin: 15px 0;
+}
+
+.mod_copyright ul li a {
+    display: block;
+    padding: 0 13px;
+}
+
+.mod_copyright ul li:nth-child(2n) {
+    width: 1px;
+    height: 12px;
+    background-color: #ccc;
+    margin-top: 18px;
+}
+
+.mod_copyright ul {
+    overflow: hidden;
+    margin-left: 110px;
+}
+
+.mod_copyright h6 {
+    font-weight: 400;
+    text-align: center;
+}
+
+.mod_copyright p {
+    text-align: center;
+}

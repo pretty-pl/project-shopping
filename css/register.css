@@ -1,0 +1,163 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    height: 84px;
+    border-bottom: 2px solid #b1191a;
+    line-height: 84px;
+}
+
+.registerarea {
+    height: 700px;
+    border: 1px solid #ccc;
+    margin-top: 20PX;
+}
+
+.registerarea h3 {
+    height: 41px;
+    padding: 0 10px;
+    border-bottom: 1px solid #ccc;
+    background-color: #ececec;
+    line-height: 41px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.login {
+    float: right;
+    font-size: 14px;
+}
+
+.login a {
+    color: #c81623;
+}
+
+.reg_form {
+    width: 600px;
+    margin: 54px auto 0;
+}
+
+.reg_form ul li label {
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+    font-size: 14px;
+}
+
+.reg_form ul li {
+    margin-bottom: 20px;
+}
+
+.reg_form ul li .inp {
+    width: 242px;
+    height: 37px;
+    border: 1px solid #ccc;
+    margin: 0 8px 0 10px;
+}
+
+.error {
+    color: #c81623;
+}
+
+.error_icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -2px;
+    width: 20px;
+    height: 20px;
+    background: url(../images/error.png) no-repeat;
+}
+
+.success {
+    color: #40b83f;
+}
+
+.success_icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -2px;
+    width: 20px;
+    height: 20px;
+    background: url(../images/success.png) no-repeat;
+}
+
+.safe {
+    padding-left: 173px;
+    color: #b2b2b2;
+}
+
+.safe em {
+    display: inline-block;
+    padding: 0 12px;
+    color: #fff;
+    text-align: center;
+}
+
+.safe .ruo {
+    background-color: #de1111;
+}
+
+.safe .zhong {
+    background-color: #40b83f;
+}
+
+.safe .qiang {
+    background-color: #f79100;
+}
+
+.agree {
+    margin: 40px 0 0 100px;
+}
+
+.agree input {
+    vertical-align: middle;
+    margin-top: -2px;
+    width: 15px;
+    height: 15px;
+}
+
+.agree a {
+    color: #38a8e8;
+}
+
+.btn {
+    width: 200px;
+    height: 35px;
+    background-color: #c81623;
+    font-size: 14px;
+    color: #fff;
+    margin: 30px 0 0 110px;
+}
+
+.mod_copyright ul li {
+    float: left;
+    margin: 15px 0;
+}
+
+.mod_copyright ul li a {
+    display: block;
+    padding: 0 13px;
+}
+
+.mod_copyright ul li:nth-child(2n) {
+    width: 1px;
+    height: 12px;
+    background-color: #ccc;
+    margin-top: 18px;
+}
+
+.mod_copyright ul {
+    overflow: hidden;
+    margin-left: 110px;
+}
+
+.mod_copyright h6 {
+    font-weight: 400;
+    text-align: center;
+}
+
+.mod_copyright p {
+    text-align: center;
+}

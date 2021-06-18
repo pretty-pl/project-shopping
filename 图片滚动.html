@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/jquery.min.js"></script>
+    <style>
+        .focus {
+            width: 245px;
+            margin: 100px auto;
+            overflow: hidden;
+        }
+        
+        ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            width: 1225px;
+            margin-left: -245px;
+        }
+        
+        li {
+            float: left;
+            width: 245px;
+            height: 163px;
+        }
+        
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="focus">
+        <ul>
+            <li><img src="upload/recom-3.jpg" alt=""></li>
+            <li><img src="upload/recom-1.jpg" alt=""></li>
+            <li><img src="upload/recom-2.jpg" alt=""></li>
+            <li><img src="upload/recom-3.jpg" alt=""></li>
+            <li><img src="upload/recom-1.jpg" alt=""></li>
+        </ul>
+    </div>
+    <script>
+        $(function() {
+            var w = $(".focus").width();
+            console.log(w);
+            var index = 0;
+            var timer = setInterval(function() {
+                index++;
+                var translatex = -index * w;
+                $("ul").css({
+                    transform: 'translateX(' + translatex + 'px)',
+                    transition: 'all .3s'
+                })
+            }, 2000);
+            $("ul").on("transitionend", function() {
+                if (index >= 3) {
+                    index = 0;
+                    var translatex = -index * w;
+                    $("ul").css({
+                        transition: "none",
+                        transform: 'translateX(' + translatex + 'px)'
+                    })
+                } else if (index < 0) {
+                    index = 2;
+                    var translatex = -index * w;
+                    $("ul").css({
+                        transition: "none",
+                        transform: 'translateX(' + translatex + 'px)'
+                    })
+                }
+            });
+            $("ul").on("mouseenter", function() {
+                clearInterval(timer);
+            });
+            $("ul").on("mouseout", function() {
+                timer = setInterval(function() {
+                    index++;
+                    var translatex = -index * w;
+                    $("ul").css({
+                        transform: 'translateX(' + translatex + 'px)',
+                        transition: 'all .3s'
+                    })
+                }, 2000);
+            })
+        })
+    </script>
+</body>
+
+</html>

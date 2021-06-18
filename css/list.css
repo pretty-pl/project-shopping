@@ -1,0 +1,178 @@
+.sk {
+    position: absolute;
+    top: 40px;
+    left: 186px;
+    border-left: 1px solid #c81523;
+    padding: 3px 0 0 14px;
+}
+
+.nav {
+    overflow: hidden;
+}
+
+.sk_list {
+    float: left;
+    margin-right: 10px;
+}
+
+.sk_list ul li {
+    float: left;
+
+}
+
+.sk_list ul li a {
+    display: block;
+    padding: 0 28px;
+    line-height: 47px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+
+.sk_con {
+    float: left;
+}
+
+.sk_con ul li {
+    float: left;
+}
+
+.sk_con ul li a {
+    display: block;
+    position: relative;
+    padding: 0 20px;
+    line-height: 49px;
+    font-size: 14px;
+}
+
+.sk_con ul li:nth-child(9) a::after {
+    position: absolute;
+    right: 0px;
+    top: 2px;
+    content: '\e92e';
+    font-family: 'icomoon';
+}
+
+.sk_bd a:hover {
+    color: #666;
+}
+
+.sk_bd ul {
+    margin-top: 25px;
+}
+
+.sk_bd ul li {
+    float: left;
+    width: 290px;
+    height: 460px;
+    border: 1px solid transparent;
+    margin-right: 13px;
+    margin-bottom: 13px;
+}
+
+.sk_bd ul li:hover {
+    border: 1px solid #e12228;
+}
+
+.sk_bd ul li a {
+    display: block;
+}
+
+.sk_bd ul li a img {
+    margin-top: 20px;
+    margin-left: 79px;
+    margin-bottom: 20px;
+}
+
+.sk_bd ul li a p {
+    margin-left: 12px;
+    font-size: 14px;
+}
+
+.sk_bd ul li a .price {
+    margin-left: 14px;
+    margin-top: 10px;
+}
+
+.sk_bd ul li a .price .new {
+    font-size: 14px;
+    color: #e60012;
+}
+
+.sk_bd ul li a .price .new i {
+    font-size: 22px;
+    color: #e60012;
+}
+
+.sk_bd ul li a .price .old {
+    font-size: 14px;
+    text-decoration: line-through;
+}
+
+.sk_bd ul li .only {
+    position: relative;
+    margin-top: 3px;
+    height: 18px;
+}
+
+.sk_bd ul li .only .first {
+    position: absolute;
+    left: 16px;
+    top: 0;
+    font-size: 14px;
+}
+
+.sk_bd ul li .only .last {
+    position: absolute;
+    right: 16px;
+    top: 0;
+    font-size: 14px;
+}
+
+.sk_bd ul li .only .last i {
+    color: #ed282e;
+}
+
+.sk_bd ul li .only .speed {
+    position: absolute;
+    top: 6px;
+    left: 76px;
+    width: 132px;
+    height: 12px;
+    border-radius: 6px;
+    border: 1px solid #ed282e;
+}
+
+.sk_bd ul li .only .speed::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 10px;
+    background-color: #ed282e;
+    transition: all .3s;
+}
+
+.sk_bd ul li .only .speed:hover::after {
+    width: 87%;
+}
+
+.sk_bd .pay {
+    width: 290px;
+    height: 48px;
+    line-height: 48px;
+    background-color: #b1191a;
+    margin-top: 15px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+
+.sk_bd .pay:hover {
+    color: #fff;
+}
+
+.sk_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
